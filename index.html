@@ -1,0 +1,933 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      body{
+        overflow-x: hidden;
+      }
+
+.nav-item{
+    margin-left: 40px;
+    font-size: 15px;
+
+}
+
+.dd-flex{
+  margin-left: 560px;
+  margin-top: 30px;
+  border: solid whitesmoke;
+
+ background-color:rgb(198, 67, 198);
+
+}
+.d-flex{
+    margin-left: 20px;
+
+}
+.btn{
+    width: 200px;
+    margin-left: 500px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.fa-list-check 
+{
+  font-size: 35px;
+
+}
+.fa-square-check{
+  font-size: 40px;
+}
+.fa-briefcase{
+  font-size: 40px;
+}
+.fa-check{
+
+  margin-left: 100px;
+  background-color: pink;
+  width: 280px;
+  padding: 11px;
+  text-align: center;
+}
+
+.fa-xmark{
+  /* padding: 20px; */
+  margin-left: 100px;
+  background-color: rgb(180, 214, 241);
+  width: 280px;
+  padding: 11px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.euis{
+  background-color:rgb(198, 67, 198);
+height: 40vh;
+border-radius: 20px;
+}
+.ghhj{
+margin-left: 430px;
+width: 370px;
+height: 8vh;
+margin-top: 30px;
+
+}
+.fa-cloud{
+  font-size: 30px;
+}
+.fa-chart-column{
+  font-size: 30px;
+}
+.fa-message{
+  font-size: 30px;
+}
+.fa-chart-line {
+  font-size: 30px; 
+}
+.abc{
+margin-left: 470px;
+}
+.ac{
+  margin-left: 400px;
+}
+
+/* resposive  on tablet*/
+@media only screen and (max-width: 991px)
+
+ {
+  .wr{
+    position: relative;
+    right: 250px;
+  }
+  
+  
+  .c31{
+    position: relative;
+    right: 300px;
+    top: -40px;
+  }
+  .c2{
+    position: relative;
+    left: 40px;
+    font-size: 25px;
+  }
+  .c5{
+    margin-right: 29px;
+    /* font-size: 10px; */
+  }
+  .c3{
+    width: 900px;
+    margin-left: 150px;
+  }
+ 
+  
+    
+  .h{
+    position: relative;
+    right: 300px;
+  }
+ .jjjj{
+  font-size: 20px;
+ }
+  .c9{
+    height: 20vh;
+  }
+  .c7{
+    position: relative;
+    right: 270px;
+    top: -20px;
+    height: 3vh;
+  }
+  .c10{
+    position: relative;
+    right: 290px; 
+    margin-top: -20px;
+  }
+  .c34{
+    position: relative;
+    right: 100px;
+  }
+  .c15{
+    position: relative;
+    top: 30px;
+    right: 50px;
+  }
+  .c16{
+    position: relative;
+    top: 30px;
+    right:190px;
+  }
+}
+@media only screen and (max-width: 600px)
+{
+.v1{
+  position: relative;
+  right: 290px;
+}
+.v2{
+  width: 600px;
+  margin-left: 30px;
+}
+.v3{
+  width: 700px;
+}
+.v5{
+  /* width: 200px; */
+  margin-left: 300px;
+  position: relative;
+top: -300px;
+}
+.v4{
+width: 290px;
+}
+.v6{
+  width: 290px;
+  position: relative;
+  top: -300px;
+}
+.v7{
+  position: relative;
+  top: -600px;
+  left: 300px;
+}
+.v8{
+  margin-top: -600px;
+  width: 290px;
+}
+.v9{
+  position: relative;
+  top: -600px; 
+  margin-left: 300px;
+}
+.v10{
+width: 700px;
+position: relative;
+top: -550px;
+
+}
+.v14{
+  width: 690px;
+  margin-top: -560px;
+}
+.v11{
+  position: relative;
+  left: -49px;
+  top:35px;
+}
+.v12{
+  margin-left:290px;
+}
+ .v15{
+  position: relative;
+  width: 790px;
+top: -550px
+ }
+ .v17{
+  width:690px ;
+ }
+.v19{
+  margin-left: 290px;
+  margin-top: -120px;
+}
+.v21{
+  margin-left: 290px;
+  margin-top: -220px;
+}
+.v22{
+  width: 310px;
+}
+.v23{
+  margin-left: 290px;
+  width: 310px;
+  margin-top: -200px;
+}
+.v25{
+  width: 650px;
+  
+}
+.v26{
+  position: relative;
+top: -20px;
+}
+
+.v27{
+  width: 330px;
+  position: relative;
+  top: -45px;
+  height: 4vh;
+ 
+}
+.v28{
+position: relative;
+right: 370px;
+width: 200px;
+top: -70px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+  
+ </style>
+
+  </head>
+  <body>
+    <!-- <header></header> -->
+     
+    <nav class="navbar navbar-expand-lg c1 ">
+        
+          <!-- <a class="navbar-brand" href="#">Collab Dash</a> -->
+          &nbsp;  &nbsp;  &nbsp;  <img src="./HD-wallpaper-aqsa-with-names-female-names-aqsa-name-purple-neon-lights-happy-birtay-aqsa-popular-arabic-female-names-with-aqsa-name.jpg" alt="" width="130px  c1">&nbsp; &nbsp;<h3>Developer </h3>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse c2" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+             
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown c2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Html 
+                </a>
+                <ul class="dropdown-menu c2 ">
+                  <li><a class="dropdown-item" href="#">Css</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item c2">
+                <a class="nav-link" href="#">Css</a>
+              </li>
+              <li class="nav-item c2">
+                <a class="nav-link" href="#">Php</a>
+              </li>
+
+              <li class="nav-item dropdown c2">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                javascript
+                </a>
+                <ul class="dropdown-menu c2">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+             
+            <form class="d-flex c2" role="search c2">
+            
+              <button class="bg-white " type="submit">My sql</button>
+            </form>
+           
+          </div>
+        </div>
+    </nav>
+      </nav>
+      
+
+      <div class="container-fluid bg-light v3">
+   <div class="row c5 v2 ">
+<h1 class="" style=" text-align: center; margin-top: 180px ; font-size: 50px;  ">Grow up your bussiness</h1>
+<p style="text-align: center; font-size: 25px;">Earn more and more  money with your business even if you are a shopkeeper</p>
+
+
+<button class="btn btn-info btn-center text-center text-light fw-bold w-2 wr v1 ">Use E-commerce website</button>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-4 col-sm-6 col-md-6 mt-3  mt-5  c3 "> 
+    <div class="card" style="width: 25rem;">
+    
+        <div class="card-body">
+          <i class="fa-sharp fa-solid fa-list-check text-primary"></i>
+          <h1 class="card-title ">Project  for shopping</h1>
+        
+          <p class="card-text text-primary">Some quick example text to build on the card title and make up the bulk of the card's content Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+        </div>
+      </div>
+</div>
+<div class="col-lg-4 col-sm-6 col-md-6 mt-3  mt-5  c3"> 
+    <div class="card" style="width: 25rem;">
+    
+        <div class="card-body">
+          <!-- <img src="../images/check.png" alt="" width="15px"> -->
+          <i class="fa-regular fa-square-check text-primary"></i>
+          <h1 class="card-title ">Projects for foods and bakeries</h1>
+          <p class="card-text text-primary">Some quick example text to build on the card title and make up the bulk of the card's content Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+        </div>
+      </div>
+</div>
+<div class="col-lg-4 col-sm-12 col-md-6 mt-3  mt-5  c3"> 
+    <div class="card" style="width: 25rem;">
+    
+        <div class="card-body">
+          <i class="fa-solid fa-briefcase text-success"></i> 
+          <h1 class="card-title ">Project  for bussiness</h1>
+          <p class="card-text text-primary">Some quick example text to build on the card title and make up the bulk of the card's content Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+        </div>
+      </div>
+</div>
+
+</div>
+</div>
+<div class="container-fluid bg-light mt-5 v3">
+<div class="row">
+
+    <h1 class="text-center">To make your business strong and powerful <br> contact with us</h1>
+
+    <div class="col-6 mt-5">
+
+            <p class="ms-5  text-primary"><img src="../images/check.png" alt="" width="15px"> &nbsp; &nbsp; &nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam <br> &nbsp; &nbsp; unde distinctio quae quo consequuntur vel natus ipsum </p>
+    </div>
+    <div class="col-6 mt-5">
+        <p class="ms-5 text-primary" >  <img src="../images/check.png" alt="" width="15px"> &nbsp; &nbsp; &nbsp;Lorem ipsum dolor sit, amet consectetur <br>adipisicing elit. Vel ducimus, temporibus quasi expedita voluptates </p>
+
+    </div>
+    <div class="col-6 mt-5">
+
+        <p class="ms-5  text-primary"> <img src="../images/check.png" alt="" width="15px"> &nbsp; &nbsp; &nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam <br> &nbsp; &nbsp; unde distinctio quae quo consequuntur vel natus ipsum </p>
+</div>
+<div class="col-6 mt-5">
+    <p class="ms-5  text-primary"> <img src="../images/check.png" alt="" width="15px">  &nbsp; &nbsp; &nbsp;Lorem ipsum dolor sit, amet consectetur <br>adipisicing elit. Vel ducimus, temporibus quasi expedita voluptates </p>
+
+</div>
+<div class="col-6 mt-5">
+
+    <p class="ms-5  text-primary"> <img src="../images/check.png" alt="" width="15px"> &nbsp; &nbsp; &nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam <br> &nbsp; &nbsp; unde distinctio quae quo consequuntur vel natus ipsum </p>
+</div>
+</div>
+</div>
+
+
+<div class="container-fluid  ">
+  <div class="row">
+    
+    <br>
+  <div class="col-lg-4 col-sm-12 col-md-6 c4 v4">
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <h1>Project  for e_commerce includes:</h1>
+
+  <p class="">Make SHOPPING clubs <br>Make online shoppings centers</p>
+  <p class="fw-bold">Just contact with us only on instagram</p>
+  
+  <a href="https://www.instagram.com/jia_creation_/profilecard/?igsh=dHQ5dzY3NjgyaG9r">instagram</a>
+
+  </div>
+<div class="col-lg-8 col-sm-12 col-md-6  mt-3 v5 ">
+  <img src="./cartoon-illustration-shopping-items-with-red-white-color_1294240-24425.avif" alt="" width="800px" class="img-fluid">
+</div>
+</div>
+ 
+</div>
+
+<div class="container-fluid ">
+  <div class="row">
+    
+    <br>
+  <div class="col-lg-4 col-sm-12 col-md-6 c4 v6">
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <h1>Project for foods and bakeries includes</h1>
+    <p class="">live your restaurants on internet</p>
+    <p class="">live your shopes  on internet</p>
+    <p class="fw-bold">Just contact with us only on instagram</p>
+    <a href="https://www.instagram.com/jia_creation_/profilecard/?igsh=dHQ5dzY3NjgyaG9r">instagram</a>
+
+  
+  </div>
+<div class="col-lg-8 col-sm-12 col-md-6  mt-3 v7">
+  <img src="./unnamed.png" alt="" width="800px" class="img-fluid">
+</div>
+</div>
+ 
+</div>
+
+<div class="container-fluid ">
+  <div class="row">
+    
+    <br>
+  <div class="col-lg-4 col-sm-12 col-md-6 c4 v8">
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <h1>Project for bussiness</h1>
+  <p>we can provide you  each and everything </p>
+  <p>we make your  strong and powerful </p>
+  <p class="fw-bold">Just contact with us only on instagram</p>
+  <a href="https://www.instagram.com/jia_creation_/profilecard/?igsh=dHQ5dzY3NjgyaG9r">instagram</a>
+  </div>
+<div class="col-lg-8 col-sm-12 col-md-6  mt-3 v9">
+  <img src="./6978C1C20B650473DD135E5352D37D55.webp" alt="" width="800px" class="img-fluid">
+</div>
+</div>
+ 
+</div>
+
+<!-- <div class="container-fluid">
+  <div class="row">
+  <div class="col-lg-4 col-sm-12 col-md-6 c4 mt-5 c4">
+    <br> 
+    <br>
+    <br>
+    <br>
+     <h1>Project Managment</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab modi sint ratione dignissimos vel? Quisquam sunt eos delectus saepe repudiandae molestias commodi est aspernatur dolorem!</p>
+  </div>
+  <div class="col-lg-8 col-sm-12 col-md-6 mt-3 ">
+    <img src="../images/Collab/collab-1.png" alt="" class="img-fluid">
+  </div>
+</div>
+</div> -->
+<!-- <div class="container-fluid">
+  <div class="row">
+  <div class="col-lg-4 col-sm-12 col-md-6 c4 mt-5 c4">
+    <br> 
+    <br>
+    <br>
+    <br>
+     <h1>Project Managment</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab modi sint ratione dignissimos vel? Quisquam sunt eos delectus saepe repudiandae molestias commodi est aspernatur dolorem!</p>
+  </div>
+  <div class="col-lg-8 col-sm-12 col-md-6 mt-3 ">
+    <img src="../images/Collab/collab-1.png" alt="" class="img-fluid">
+  </div>
+</div>
+</div> -->
+<!-- <div class="container-fluid">
+  <div class="row">
+  <div class= " col-lg-8 col-sm-12 col-md-6 c4 ">
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <h1>Project Managment</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab modi sint ratione dignissimos vel? Quisquam sunt eos delectus saepe repudiandae molestias commodi est aspernatur dolorem!</p>
+  </div>
+  <div class="col-lg-8 col-sm-12 col-md-6 mt-3">
+    <img src="../images/Collab/collab-3.png" alt="" class="img-fluid">
+  </div>
+</div>
+</div> -->
+<div class="container bg-light mt-5 v10">
+<div class="row">
+<div class="col-4 col-sm-6 col-md-4 mt-5 c4">
+  <i class="fa-solid fa-chart-column text-primary "></i>
+<h2>Dashborad Project</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat commodi amet voluptatum accusamus hic omnis dolore accusantium suscipit, perspiciatis quasi? A veniam quae velit blanditiis esse dicta vitae deserunt nulla.</p>
+<h5 class="text-center text-primary">learn more</h5>
+</div>
+<div class="col-4 col-sm-6 col-md-4  mt-5">
+  <i class="fa-solid fa-cloud text-primary"></i>
+  <h2 class="cy">Clouds Storage</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat commodi amet voluptatum accusamus hic omnis dolore accusantium suscipit, perspiciatis quasi? A veniam quae velit blanditiis esse dicta vitae deserunt nulla.</p>
+  <h5 class="text-center text-primary">learn more</h5>
+  </div> 
+  <div class="col-4 col-sm-6 col-md-4  mt-5">
+    <i class="fa-solid fa-chart-line text-primary"></i>
+    <h2>Generative design</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat commodi amet voluptatum accusamus hic omnis dolore accusantium suscipit, perspiciatis quasi? A veniam quae velit blanditiis esse dicta vitae deserunt nulla.</p>
+    <h5 class="text-center text-primary">learn more</h5>
+    </div>
+</div>
+</div>
+<div class="container bg-light v10 ">
+  <div class="row">
+  <div class="col-4 col-sm-6 col-md-4  mt-5 ">
+    <i class="fa-solid fa-message text-primary"></i>
+  <h2>Dashborad  Project</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat commodi amet voluptatum accusamus hic omnis dolore accusantium suscipit, perspiciatis quasi? A veniam quae velit blanditiis esse dicta vitae deserunt nulla.</p>
+  <h5 class="text-center text-primary">learn more</h5>
+  </div>
+  <div class="col-4 col-sm-6 col-md-4  mt-5">
+    <i class="fa-solid fa-chart-line text-primary"></i>
+    <h2>Generative design</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat commodi amet voluptatum accusamus hic omnis dolore accusantium suscipit, perspiciatis quasi? A veniam quae velit blanditiis esse dicta vitae deserunt nulla.</p>
+    <h5 class="text-center text-primary">learn more</h5>
+    </div>
+    <div class="col-4 col-sm-6 col-md-4  mt-5">
+      <i class="fa-solid fa-list-check text-primary"></i>
+
+      <h2>Organizes  Project</h2>
+  
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat commodi amet voluptatum accusamus hic omnis dolore accusantium suscipit, perspiciatis quasi? A veniam quae velit blanditiis esse dicta vitae deserunt nulla.</p>
+      <h5 class="text-center text-primary">learn more</h5>
+      </div>
+  </div>
+</div>
+    <!-- <div class="col-lg-4 col-sm-6 col-md-4  mt-5 ">
+      <i class="fa-solid fa-cloud text-primary"></i>
+      <h2 class="cy">Cloud storage</h2>
+      <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat commodi amet voluptatum accusamus hic omnis dolore accusantium suscipit, perspiciatis quasi? A veniam quae velit blanditiis esse dicta vitae deserunt nulla.</p>
+      <h5 class="text-center text-primary">learn more</h5>
+      </div
+  </div>
+</div> -->
+
+</div>
+
+</div>
+  
+  </div>
+  </div>
+  <div class="container-fluid bg-light mt-5 p-2 v15">
+    <div class="row">
+      <h1 class="text-center">The best of both world</h1>
+      <hr>
+    </div>
+  </div>
+  <div class="container-fluid bg-light v14 ">
+    <div class="row">
+      
+      <div class="col-lg-4 col-sm-12 col-md-6 v11">
+<h5 class="abc c15 ">WEbsite</h5>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-md-6 c16 v12">
+        <h5 class="ac">design</h5>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6 v13  ">
+                <h5 style="margin-left: 210px;" >Develop</h5>
+                      </div> 
+          
+      <hr>
+     
+    </div>
+  </div>
+  <div class="container-fluid mt-2 v17">
+    <div class="row">
+      <div class="col-3 col-md-3 col-sm-3  ">
+      <h4 class="">Manage client data </h4>
+    </div>
+    <div class="col-3 col-md-3 col-sm-3  c34">
+      <i class="fa-solid fa-check img-fluid"></i>
+    </div>
+    <div class="col-3 col-md-3 col-sm-3 c34">
+      <i class="fa-solid fa-xmark img-fluid"></i>
+    </div>
+    <div class="col-3 col-md-3 col-sm-3 c34 ">
+      <i class="fa-solid fa-check img-fluid"></i>
+    </div>
+    </div>
+    </div>
+<div class="container-fluid mt-2 v17">
+  <div class="row">
+    <div class="col-3 col-3 col-md-3 col-sm-3  ">
+    <h4>Manage server data </h4>
+  </div>
+  <div class="col-3 col-md-3 col-sm-3  c34 ">
+    <i class="fa-solid fa-check img-fluid"></i>
+  </div>
+  <div class="col-3 col-md-3 col-sm-3  c34 w-15">
+    <i class="fa-solid fa-check img-fluid"></i>
+  </div>
+  <div class="col-3 col-md-3 col-sm-3  c34  w-15">
+    <i class="fa-solid fa-check img-fluid"  ></i>
+  </div>
+  </div>
+  </div>
+  <div class="container-fluid mt-2 v17">
+    <div class="row">
+      <div class="col-3 col-md-3 col-sm-3  ">
+      <h4>Manage own business </h4>
+    </div>
+    <div class="col-3 col-md-3 col-sm-3  c34">
+      <i class="fa-solid fa-check img-fluid" ></i>
+    </div>
+    <div class="col-3 col-md-3 col-sm-3  c34">
+      <i class="fa-solid fa-xmark img-fluid"  ></i>
+    </div>
+    <div class="col-3 col-md-3 col-sm-3  c34">
+      <i class="fa-solid fa-check img-fluid" ></i>
+    </div>
+    </div>
+    </div>
+    <div class="container-fluid mt-2 v17">
+      <div class="row">
+        <div class="col-3 col-md-3 col-sm-3">
+        <h4>Manage own data </h4>
+      </div>
+      <div class="col-3 col-md-3 col-sm-3  c34">
+        <i class="fa-solid fa-check img-fluid" ></i>
+      </div>
+      <div class="col-3 col-md-3 col-sm-3  c34">
+        <i class="fa-solid fa-check img-fluid" ></i>
+      </div>
+      <div class="col-3 col-md-3 col-sm-3  c34">
+        <i class="fa-solid fa-check img-fluid"></i>
+      </div>
+      </div>
+      </div>
+      <div class="container-fluid mt-2 v17">
+        <div class="row">
+          <div class="col-3 col-md-3 col-sm-3  ">
+          <br> 
+          
+          <h3 style="background-color: rgb(196, 196, 234);">Tailored for creative</h3>
+        </div>
+        <div class="col-3 col-md-3 col-sm-3  c34">
+          <i class="fa-solid fa-check img-fluid" ></i>
+        </div>
+        <div class="col-3 col-md-3 col-sm-3  c34">
+          <i class="fa-solid fa-xmark img-fluid"  ></i>
+        </div>
+        <div class="col-3 col-md-3 col-sm-3  c34">
+          <i class="fa-solid fa-check img-fluid"></i>
+        </div>
+        </div>
+      </div>
+      <div class="container-fluid mt-1">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3">
+        <!-- <h4>Manage client data </h4>  -->
+        </div>
+      
+        </div>
+        </div> 
+        <hr>
+<div class="container-fluid v18">
+  <div class="row">
+    <div class="col-8 col-md-6 col-sm-12 oo">
+      <img src="./Employee_development_1200x630.png" alt="" class="img-fluid"style="margin-left: 10px; ">
+    </div>
+ 
+    <div class="col-lg-4 col-md-6 col-sm-6 c6 v19">
+      <h1 class="jjjj ">Improved Feedback  experience</h1>
+      <p>Several key assets of your brand, such as the logo, color scheme, and fonts can ensure your audience remembers your brand and easily differentiates it from thousands of others. A professional web designer takes into account all the unique aspects of your business and blends them into your website to add to your brand credibility and portray consistency.</p>
+      <div class="text-center">
+      <button style="border-radius: 20px;">Try the Demo</button>
+    </div>
+  </div>
+
+  </div>
+</div>
+<div class="container mt-5 ">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 v22 ">
+      <h1>Next level proofing tool</h1>
+<p>Visual elements come together and set a theme for your website, which leaves a great impact on visitors when you get it right. It is crucial that every element compliments one another and looks harmonious rather than chaotic</p>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 v21">
+      <img src="./about-us-page-examples-1-61fd8f9784626-sej.webp" class="img-fluid"  width="500px "></img>
+      </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12 v22 ">
+        <h4 class="hji"><i class="fa-solid fa-pencil text-primary"></i> Anotation</h4>
+  <p>Annotating is any action that deliberately interacts with a text to enhance the reader's understanding of, recall of, and reaction to the text. Sometimes called "close reading," annotating usually involves highlighting or underlining key pieces of text and making notes in the margins of the text</p>
+      </div>
+    
+    
+  
+      <div class="col-lg-3 col-md-6 col-sm-12 v23 ">
+         <h4 class="hji"> <i class="fa-solid fa-microphone text-primary"></i> &nbsp; Recording </h4>
+  <p class="iop">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim nesciunt similique accusamus eius, quia, minus id nobis laudantium fuga culpa nam vitae dolorem doloribus? Sed ut soluta dolorum dicta rem?</p>
+      </div>
+    </div>
+ 
+
+    
+  </div>
+</div>
+
+<!-- with container -->
+<!-- <div class="container ">
+  <div class="row">
+    <div class="col-3  mt-3">
+      <h1 class="hji"><i class="fa-solid fa-pencil text-primary"></i> Anotation</h1>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim nesciunt similique accusamus eius, quia, minus id nobis laudantium fuga culpa nam vitae dolorem doloribus? Sed ut soluta dolorum dicta rem?</p>
+    </div>
+  
+
+
+    <div class="col-3">
+       <h1 class="hji"> <i class="fa-solid fa-microphone text-primary"></i> &nbsp; Recording </h1>
+<p class="iop">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim nesciunt similique accusamus eius, quia, minus id nobis laudantium fuga culpa nam vitae dolorem doloribus? Sed ut soluta dolorum dicta rem?</p>
+    </div>
+  </div> -->
+</div>
+<div class="container mt-2 c9 v25 a3">
+  <div class="row">
+<div class="euis mt-5 c9 ">
+  <h1 class="text-center mt-5 v26 ">Follow our quaterly new letter</h1>
+<button class="ghhj  c7 v27 a1"><a href="https://www.instagram.com/jia_creation_/profilecard/?igsh=dHQ5dzY3NjgyaG9r">instagram</a>
+</button>
+<br>
+<!-- <button class=" btn btn-center btn-outline-dark bg-light">Sign up</button> -->
+ 
+<!-- <form class="dd-flex" role="search">
+            
+  <button class="" type="submit">Sign up</button>
+</form> -->
+<button class="dd-flex text-light fw-bold c31 v28 a2">Try the Demo</button>
+</div>
+</div>
+<br>
+<br>
+
+    <img src="../images/Collab/footer-logo.png " alt="" class="h" width="190px" style="margin-left: 510px;">
+
+
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4 text-primary">
+            Contact us
+          </h6>
+          <p>
+            <a href="https://www.instagram.com/jia_creation_/profilecard/?igsh=dHQ5dzY3NjgyaG9r">instagram</a>
+
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 text-primary">
+            support
+          </h6>
+          <p>
+            <h6 class="text-reset c11"><i class="fa-solid fa-chevron-right text-primary"></i> &nbsp;Mobile</h6>
+          </p>
+          <p>
+            <h6 class="text-reset c11"><i class="fa-solid fa-chevron-right text-primary"></i> &nbsp; Account</h6>
+          </p>
+          <p>
+            <h6 class="text-reset"><i class="fa-solid fa-chevron-right text-primary"></i> &nbsp;Media </h6>
+          </p>
+          <p>
+            <h6 class="text-reset"><i class="fa-solid fa-chevron-right text-primary"></i> &nbsp;media </h6>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 text-primary">
+          Product
+          </h6>
+          <p>
+            <h6 class="text-reset"><i class="fa-solid fa-chevron-right text-primary"></i> &nbsp;Feedback</h6>
+          </p>
+          <p>
+            <h6 class="text-reset"><i class="fa-solid fa-chevron-right text-primary"></i> &nbsp;Feedback</h6>
+          </p>
+         
+          <p>
+            <h6 class="text-reset"><i class="fa-solid fa-chevron-right text-primary"></i> &nbsp;Feedback</h6>
+          </p> 
+           <p>
+            <h6 class="text-reset"><i class="fa-solid fa-chevron-right text-primary"></i> &nbsp;Feedback</h6>
+          </p>
+        </div>
+      
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+<div class="container mt-2 ms-5">
+  <div class="row">
+    <div class="col-4">
+   <h6 class="text-primary  text-center ">Home &nbsp; Contact us &nbsp; About</h6>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
